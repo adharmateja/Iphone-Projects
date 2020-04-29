@@ -102,7 +102,7 @@ for temp in arr
          }
       }
          tempArraycount.append(count)
-         stringArray.append(temp)
+           stringArray.append(temp)
   }
 
 }
