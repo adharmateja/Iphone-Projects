@@ -64,7 +64,7 @@ class ViewController: UIViewController {
 		temp.removeLast()
 		if temp.count != 0
 		{
-			shortenNumber(firstStep:temp as! Array<Int>)
+			let _ = shortenNumber(firstStep:temp as! Array<Int>)// let _ ignores the return values
 		}
 		return shortString
 	}
